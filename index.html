@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dynamically calulate table row and column</title>
+	<script type="text/javascript" src="CalculateTableRowsandCols.js"></script>
+	<style type="text/css">
+		/* style for table, table heading and table data */
+		table, th, td 
+		{
+    		border: 1px solid black;
+    		padding: 5px;
+		}
+		table
+		{
+			border-collapse: collapse;			
+		}
+		th
+		{
+			background-color: yellow;			
+		}
+		div
+		{
+			margin: 10px;			 
+			color: green;	
+			font-size: 20px;		
+		}
+	</style>
+</head>
+<body>
+<h2>Score board of India</h2>
+<table id="crickettable">
+	 <tr>
+	 	<th>First Name</th>
+	 	<th>Last Name</th>
+	 	<th>Score</th>
+	 </tr>
+	 <tr>
+	 	<td>Virat</td>
+	 	<td>Kohli</td>
+	 	<td>100</td>
+	 </tr>
+	 <tr>
+	 	<td>Rohit</td>
+	 	<td>Sharma</td>
+	 	<td>90</td>
+	 </tr>
+	 <tr>
+	 	<td>MS</td>
+	 	<td>Dhoni</td>
+	 	<td>80</td>
+	 </tr>
+	  <tr>
+	 	<td>Ajinke</td>
+	 	<td>Rehana</td>
+	 	<td>75</td>
+	 </tr>
+</table>
+
+<div id="RowCountExcludingHeaders-div">
+	
+</div> 
+
+<div id="ColCount-div">
+	
+</div>
+
+</body>
+</html>
